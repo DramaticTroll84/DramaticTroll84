@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Kode Mono", monospace;
+    color: #fff;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+}
+header {
+    width: 100%;
+    height: 100px;
+    background: #333 url(Resources/headerImg.png) no-repeat center center; /* Apply background image */
+    background-size: contain; /* Optional: Adjust background size */
+}
+.navbar {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    place-items: center;
+}
+.home {
+    grid-column: 2;
+    grid-row: 3;
+    width: 100px;
+    height: 30px;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: 2px solid #fff;
+}
+.home:hover {
+    text-shadow: 0 0 5px aqua, 0 0 15px aqua;
+    cursor: pointer;
+    background: #000;
+    box-shadow: 0 0 5px aqua, 0 0 15px aqua;
+}
+.about {
+    grid-column: 3;
+    grid-row: 3;
+    width: 100px;
+    height: 30px;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: 2px solid #fff;
+}
+.about:hover {
+    text-shadow: 0 0 5px aqua, 0 0 15px aqua;
+    cursor: pointer;
+    background: #000;
+    box-shadow: 0 0 5px aqua, 0 0 15px aqua;
+}
+.contact {
+    grid-column: 4;
+    grid-row: 3;
+    width: 100px;
+    height: 30px;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: 2px solid #fff;
+}
+.contact:hover {
+    text-shadow: 0 0 5px aqua, 0 0 15px aqua;
+    cursor: pointer;
+    background: #000;
+    box-shadow: 0 0 5px aqua, 0 0 15px aqua;
+}
+.downloadables {
+    grid-column: 5;
+    grid-row: 3;
+    width: 100px;
+    height: 30px;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: 2px solid #fff;
+}
+.downloadables:hover {
+    text-shadow: 0 0 5px aqua, 0 0 15px aqua;
+    cursor: pointer;
+    background: #000;
+    box-shadow: 0 0 5px aqua, 0 0 15px aqua;
+}
+
+.body-content {
+    background: #000;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    place-items: center;
+    padding: 10px;
+    gap: 15px;
+}
+.makeDonation {
+    width: 100%;
+    height: 50px;
+    background: #000;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    place-items: center;
+    position: relative;
+    text-align: center;
+}
+.payPal {
+    grid-column: 4;
+    width: 200px;
+    height: 30px;
+    border: 2px solid #FFD700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 0, 0.5);
+}
+.payPal:hover {
+    cursor: pointer;
+    background-color: #FFD700;
+    color: #000;
+}
+.deserve {
+    grid-column: 3;
+}
+.consider {
+    grid-column: 5;
+}
+.aboutTheFruit {
+    grid-row: 2;
+    grid-column: 2 / 7;
+    position: relative;
+    top: 50%;
+}
+strong {
+    color: orangered;
+    font-size: 18px;
+}
+.aboutTheFruit h2 {
+    text-align: center;
+    color: rgb(0,255,0);
+    text-shadow: 0 0 5px rgb(0,255,0), 0 0 15px rgb(0,255,0);
+}
+.aboutTheFruit p {
+    font-size: 12px;
+    text-align: center;
+}
+.aboutTheFruit img {
+    width: 60px;
+}
+.image-fruit-desc {
+    grid-column: 2 / 7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.characterName {
+    background-color: #000;
+    text-align: center;
+}

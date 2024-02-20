@@ -1,0 +1,189 @@
+.luffy {
+    grid-column: 2;
+    grid-row: 1;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    place-items: center;
+}
+.card {
+    width: 300px;
+    height: 500px;
+    background-image: url(Resources/background.png);
+    background-size: cover;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(255,255,255,0.2);
+}
+.card img {
+    width: 268px;
+    position: relative;
+    left: -2%;
+    border-radius: 50px 10px 50px 10px;
+    border: 2px solid #FFD700;
+    opacity: 0.7;
+}
+.card img:hover {
+    transform: scale(1.05);
+    z-index: 999;
+    transition: 0.5s;
+    opacity: 1;
+}
+
+
+.power {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    place-items: center;
+}
+.power h5 {
+    grid-column: 1;
+    width: 100px;
+    font-size: 10px;
+}
+.G1pb1 {
+    font-size: 11px;
+    grid-column: 3/8;
+    color: rgb(0, 255, 0);
+    text-shadow: 0 0 5px rgb(0, 255, 0), 0 0 15px rgb(0, 255, 0);
+}
+
+.leadership {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    place-items: center;
+}
+.leadership h5 {
+    grid-column: 1;
+    width: 100px;
+    font-size: 10px;
+}
+.G1lb1 {
+    font-size: 10px;
+    grid-column: 3/8;
+    color: rgb(0, 255, 0);
+    text-shadow: 0 0 5px rgb(0, 255, 0), 0 0 15px rgb(0, 255, 0);
+}
+
+
+.friendliness {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    place-items: center;
+}
+.friendliness h5 {
+    grid-column: 1;
+    width: 100px;
+    font-size: 10px;
+}
+.G1fb1 {
+    font-size: 10px;
+    grid-column: 3/8;
+    color: rgb(0, 255, 0);
+    text-shadow: 0 0 5px rgb(0, 255, 0), 0 0 15px rgb(0, 255, 0);
+}
+
+
+.pirate {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    place-items: center;
+}
+.pirate h5 {
+    grid-column: 1;
+    width: 100px;
+    font-size: 10px;
+}
+.G1pib1 {
+    font-size: 10px;
+    grid-column: 3/8;
+    color: rgb(0, 255, 0);
+    text-shadow: 0 0 5px rgb(0, 255, 0), 0 0 15px rgb(0, 255, 0);
+}
+
+
+.fa-skull {
+    color: grey;
+}
+.green {
+    color: rgb(0, 255, 0);
+    text-shadow: 0 0 5px rgb(0, 255, 0), 0 0 15px rgb(0, 255, 0);
+}
+.bounty {
+    position: relative;
+    left: -7%;
+    top: 5%;
+    font-size: 10px;
+    color: #FFD700;
+    text-shadow: 0 0 5px #FFD700, 0 0 15px #FFD700;
+}
+.bounty img {
+    width: 11px;
+    position: relative;
+    left: 2%;
+    border: none;
+}
+.descriptionG1 {
+    font-size: 10px;
+    position: absolute;
+    top: 84%;
+    left: 2%;
+}
+.stats {
+    width: 250px;
+    position: relative;
+    left: 1%;
+    top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #000;
+    border: 2px solid #FFD700;
+    border-radius: 10px;
+}
+.name {
+    position: absolute;
+    top: 0;
+    font-size: 16px;
+}
+#first {
+    position: relative;
+    left: 350%;
+}
+#d {
+    position: relative;
+    left: 445%;
+    top: 1px;
+    transform: rotate(45deg);
+}
+#last {
+    transform: rotate(90deg);
+    position: relative;
+    left: 420%;
+    top: 3px;
+}
+.fruit {
+    position: absolute;
+    top: 3px;
+    left: 5px;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+}
+.fruit img {
+    width: 15px;
+    height: 15px;
+    border: none;
+    border-radius: 2px 2px 2px 2px;
+}
+.gear {
+    position: absolute;
+    top: 96%;
+    left: 72%;
+    font-size: 10px;
+    width: 100px;
+    color: #00ff15;
+    text-shadow: 0 0 5px #00ff15, 0 0 15px #00ff15;
+}

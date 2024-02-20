@@ -1,0 +1,252 @@
+.luffyG2 {
+    grid-column: 3;
+    grid-row: 1;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    place-items: center;
+}
+.cardG2 {
+    width: 300px;
+    height: 500px;
+    background-image: url(Resources/background.png);
+    background-size: cover;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(255,255,255,0.2);
+}
+.cardG2 img {
+    width: 268px;
+    position: relative;
+    left: -2%;
+    border-radius: 50px 10px 50px 10px;
+    border: 2px solid #FFD700;
+    opacity: 0.7;
+}
+.cardG2 img:hover {
+    transform: scale(1.05);
+    z-index: 999;
+    transition: 0.5s;
+    opacity: 1;
+}
+button {
+    position: absolute;
+    left: 50%;
+    top: 105%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 30px;
+    color: #000;
+    border-radius: 10px;
+}
+button span {
+    color: orangered;
+}
+button:hover {
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+    box-shadow: 0 0 5px aqua, 0 0 15px aqua;
+}
+
+.powerG2 {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    place-items: center;
+}
+.powerG2 h5 {
+    grid-column: 1;
+    width: 100px;
+    font-size: 10px;
+}
+.G2pb1 {
+    font-size: 10px;
+    grid-column: 3/8;
+    color: rgb(0, 255, 0);
+    text-shadow: 0 0 5px rgb(0, 255, 0), 0 0 15px rgb(0, 255, 0);
+}
+
+
+.leadershipG2 {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    place-items: center;
+}
+.leadershipG2 h5 {
+    grid-column: 1;
+    width: 100px;
+    font-size: 10px;
+}
+.G2lb1 {
+    font-size: 10px;
+    grid-column: 3/8;
+    color: rgb(0, 255, 0);
+    text-shadow: 0 0 5px rgb(0, 255, 0), 0 0 15px rgb(0, 255, 0);
+}
+.lb2 {
+    font-size: 10px;
+    grid-column: 4;
+}
+.lb3 {
+    font-size: 10px;
+    grid-column: 5;
+}
+.lb4 {
+    font-size: 10px;
+    grid-column: 6;
+}
+.lb5 {
+    font-size: 10px;
+    grid-column: 7;
+}
+
+.friendlinessG2 {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    place-items: center;
+}
+.friendlinessG2 h5 {
+    grid-column: 1;
+    width: 100px;
+    font-size: 10px;
+}
+.G2fb1 {
+    font-size: 10px;
+    grid-column: 3/8;
+    color: rgb(0, 255, 0);
+    text-shadow: 0 0 5px rgb(0, 255, 0), 0 0 15px rgb(0, 255, 0);
+}
+.fb2 {
+    font-size: 10px;
+    grid-column: 4;
+}
+.fb3 {
+    font-size: 10px;
+    grid-column: 5;
+}
+.fb4 {
+    font-size: 10px;
+    grid-column: 6;
+}
+.fb5 {
+    font-size: 10px;
+    grid-column: 7;
+}
+
+.pirateG2 {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    place-items: center;
+}
+.pirateG2 h5 {
+    grid-column: 1;
+    width: 100px;
+    font-size: 10px;
+}
+.G2pib1 {
+    font-size: 10px;
+    grid-column: 3/8;
+    color: rgb(0, 255, 0);
+    text-shadow: 0 0 5px rgb(0, 255, 0), 0 0 15px rgb(0, 255, 0);
+}
+.pib2 {
+    font-size: 10px;
+    grid-column: 4;
+}
+.pib3 {
+    font-size: 10px;
+    grid-column: 5;
+}
+.pib4 {
+    font-size: 10px;
+    grid-column: 6;
+}
+.pib5 {
+    font-size: 10px;
+    grid-column: 7;
+}
+
+.fa-skull {
+    color: grey;
+}
+.green {
+    color: rgb(0, 255, 0);
+    text-shadow: 0 0 5px rgb(0, 255, 0), 0 0 15px rgb(0, 255, 0);
+}
+.bountyG2 {
+    position: relative;
+    left: -7%;
+    top: 5%;
+    font-size: 10px;
+    color: #FFD700;
+    text-shadow: 0 0 5px #FFD700, 0 0 15px #FFD700;
+}
+.bountyG2 img {
+    width: 11px;
+    position: relative;
+    left: 2%;
+    border: none;
+}
+.descriptionG2 {
+    font-size: 10px;
+    position: absolute;
+    top: 86%;
+    left: 2%;
+}
+.statsG2 {
+    width: 250px;
+    position: relative;
+    left: 1%;
+    top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #000;
+    border: 2px solid #FFD700;
+    border-radius: 10px;
+}
+.nameG2 {
+    position: absolute;
+    top: 0;
+    font-size: 16px;
+}
+#first {
+    position: relative;
+    left: 350%;
+}
+#d {
+    position: relative;
+    left: 445%;
+    top: 1px;
+    transform: rotate(45deg);
+}
+#last {
+    transform: rotate(90deg);
+    position: relative;
+    left: 420%;
+    top: 3px;
+}
+.fruitG2 {
+    position: absolute;
+    top: 3px;
+    left: 5px;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+}
+.fruitG2 img {
+    width: 15px;
+    height: 15px;
+    border: none;
+    border-radius: 2px 2px 2px 2px;
+}
+.gear2 {
+    position: absolute;
+    top: 96%;
+    left: 79%;
+    font-size: 10px;
+    color: #00ff15;
+    text-shadow: 0 0 5px #00ff15, 0 0 15px #00ff15;
+}

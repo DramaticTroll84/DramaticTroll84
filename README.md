@@ -7,6 +7,5 @@
 - ⚡ Fun fact: I only started coding 3months ago
 
 <!---
-DramaticTroll84/DramaticTroll84 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
+
 --->
